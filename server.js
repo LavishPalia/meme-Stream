@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 
-const connectDB = require('./db/db');
+const connectDB = require('./config/db');
 const Meme = require('./models/meme');
 const app = express();
 
